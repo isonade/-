@@ -1,0 +1,25 @@
+body{
+
+}
+.container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+p {
+  margin: 5px 5px 10px ;
+}
+h5{
+  margin: 10px 5px 10px;
+}
+.row{
+  border: 1px solid black;
+}

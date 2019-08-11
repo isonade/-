@@ -1,0 +1,18 @@
+create database Board_db;
+
+grant all on Board_db.* to dbuser@localhost identified by '1234567';
+
+use Board_db;
+
+create table board(
+   image_id int not null auto_increment primary key,
+   created_at datetime,
+   image_name varchar(255),
+   image_type varchar(64),
+   image_content mediumblob,
+   image_size int,
+   user varchar(20),
+   comment varchar(140)
+    );
+
+desc board;
